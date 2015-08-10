@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773C947A1B79262B00B32661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C94791B79262B00B32661 /* AppDelegate.swift */; };
+		773C947C1B79262B00B32661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C947B1B79262B00B32661 /* ViewController.swift */; };
+		773C947E1B79262B00B32661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773C947D1B79262B00B32661 /* Images.xcassets */; };
+		773C94811B79262B00B32661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773C947F1B79262B00B32661 /* Main.storyboard */; };
+		773C948D1B79262C00B32661 /* MotorDesign_RDLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C948C1B79262C00B32661 /* MotorDesign_RDLTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		773C94871B79262C00B32661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773C946C1B79262B00B32661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773C94731B79262B00B32661;
+			remoteInfo = MotorDesign_RDL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		773C94741B79262B00B32661 /* MotorDesign_RDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorDesign_RDL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773C94781B79262B00B32661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773C94791B79262B00B32661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		773C947B1B79262B00B32661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		773C947D1B79262B00B32661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		773C94801B79262B00B32661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		773C94861B79262C00B32661 /* MotorDesign_RDLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorDesign_RDLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773C948B1B79262C00B32661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773C948C1B79262C00B32661 /* MotorDesign_RDLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorDesign_RDLTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773C94711B79262B00B32661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C94831B79262C00B32661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773C946B1B79262B00B32661 = {
+			isa = PBXGroup;
+			children = (
+				773C94761B79262B00B32661 /* MotorDesign_RDL */,
+				773C94891B79262C00B32661 /* MotorDesign_RDLTests */,
+				773C94751B79262B00B32661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		773C94751B79262B00B32661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773C94741B79262B00B32661 /* MotorDesign_RDL.app */,
+				773C94861B79262C00B32661 /* MotorDesign_RDLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773C94761B79262B00B32661 /* MotorDesign_RDL */ = {
+			isa = PBXGroup;
+			children = (
+				773C94791B79262B00B32661 /* AppDelegate.swift */,
+				773C947B1B79262B00B32661 /* ViewController.swift */,
+				773C947D1B79262B00B32661 /* Images.xcassets */,
+				773C947F1B79262B00B32661 /* Main.storyboard */,
+				773C94771B79262B00B32661 /* Supporting Files */,
+			);
+			path = MotorDesign_RDL;
+			sourceTree = "<group>";
+		};
+		773C94771B79262B00B32661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				773C94781B79262B00B32661 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		773C94891B79262C00B32661 /* MotorDesign_RDLTests */ = {
+			isa = PBXGroup;
+			children = (
+				773C948C1B79262C00B32661 /* MotorDesign_RDLTests.swift */,
+				773C948A1B79262C00B32661 /* Supporting Files */,
+			);
+			path = MotorDesign_RDLTests;
+			sourceTree = "<group>";
+		};
+		773C948A1B79262C00B32661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				773C948B1B79262C00B32661 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773C94731B79262B00B32661 /* MotorDesign_RDL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773C94901B79262C00B32661 /* Build configuration list for PBXNativeTarget "MotorDesign_RDL" */;
+			buildPhases = (
+				773C94701B79262B00B32661 /* Sources */,
+				773C94711B79262B00B32661 /* Frameworks */,
+				773C94721B79262B00B32661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotorDesign_RDL;
+			productName = MotorDesign_RDL;
+			productReference = 773C94741B79262B00B32661 /* MotorDesign_RDL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		773C94851B79262C00B32661 /* MotorDesign_RDLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773C94931B79262C00B32661 /* Build configuration list for PBXNativeTarget "MotorDesign_RDLTests" */;
+			buildPhases = (
+				773C94821B79262C00B32661 /* Sources */,
+				773C94831B79262C00B32661 /* Frameworks */,
+				773C94841B79262C00B32661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773C94881B79262C00B32661 /* PBXTargetDependency */,
+			);
+			name = MotorDesign_RDLTests;
+			productName = MotorDesign_RDLTests;
+			productReference = 773C94861B79262C00B32661 /* MotorDesign_RDLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773C946C1B79262B00B32661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Fry An Egg Technology";
+				TargetAttributes = {
+					773C94731B79262B00B32661 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					773C94851B79262C00B32661 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 773C94731B79262B00B32661;
+					};
+				};
+			};
+			buildConfigurationList = 773C946F1B79262B00B32661 /* Build configuration list for PBXProject "MotorDesign_RDL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 773C946B1B79262B00B32661;
+			productRefGroup = 773C94751B79262B00B32661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773C94731B79262B00B32661 /* MotorDesign_RDL */,
+				773C94851B79262C00B32661 /* MotorDesign_RDLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773C94721B79262B00B32661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C947E1B79262B00B32661 /* Images.xcassets in Resources */,
+				773C94811B79262B00B32661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C94841B79262C00B32661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773C94701B79262B00B32661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C947C1B79262B00B32661 /* ViewController.swift in Sources */,
+				773C947A1B79262B00B32661 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C94821B79262C00B32661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C948D1B79262C00B32661 /* MotorDesign_RDLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		773C94881B79262C00B32661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773C94731B79262B00B32661 /* MotorDesign_RDL */;
+			targetProxy = 773C94871B79262C00B32661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		773C947F1B79262B00B32661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773C94801B79262B00B32661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773C948E1B79262C00B32661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		773C948F1B79262C00B32661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		773C94911B79262C00B32661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MotorDesign_RDL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		773C94921B79262C00B32661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MotorDesign_RDL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		773C94941B79262C00B32661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MotorDesign_RDLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorDesign_RDL.app/Contents/MacOS/MotorDesign_RDL";
+			};
+			name = Debug;
+		};
+		773C94951B79262C00B32661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MotorDesign_RDLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotorDesign_RDL.app/Contents/MacOS/MotorDesign_RDL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773C946F1B79262B00B32661 /* Build configuration list for PBXProject "MotorDesign_RDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C948E1B79262C00B32661 /* Debug */,
+				773C948F1B79262C00B32661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773C94901B79262C00B32661 /* Build configuration list for PBXNativeTarget "MotorDesign_RDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C94911B79262C00B32661 /* Debug */,
+				773C94921B79262C00B32661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		773C94931B79262C00B32661 /* Build configuration list for PBXNativeTarget "MotorDesign_RDLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C94941B79262C00B32661 /* Debug */,
+				773C94951B79262C00B32661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773C946C1B79262B00B32661 /* Project object */;
+}
